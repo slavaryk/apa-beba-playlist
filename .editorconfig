@@ -1,0 +1,12 @@
+root = true
+
+[*.{py,ts,mjs,json,vue}]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = tab
+tab_width = 2
+
+[main.py]
+indent_style = tab
+tab_width = 4
