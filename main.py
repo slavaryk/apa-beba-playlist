@@ -6,7 +6,7 @@ import os
 
 token = os.getenv("API_TOKEN")
 
-app = FastAPI()
+app = FastAPI(root_path="/api")
 
 app.add_middleware(
     CORSMiddleware,
